@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Odapas Tecámac</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="icon" type="image/png" href="images/odapass.png">
+  <style>
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      flex-wrap: wrap;
+    }
+
+    .image-gallery .image-item {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+      overflow: hidden;
+    }
+
+    .image-gallery .image-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .image-gallery .image-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .image-gallery .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      font-size: 14px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .image-gallery .image-item:hover .overlay {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/odapass5-removebg-preview.png" alt="Logo Odapas Tecámac">
+    <h1 style="text-align: center;">Odapas Tecámac</h1>
+    <h2 style="text-align: center; font-size: 18px; color: #00008B;">Organismo Público Descentralizado para la Prestación de Servicios de Agua Potable, Alcantarillado y Saneamiento de Tecámac</h2>
+  </header>
+
+  <nav style="text-align: center;">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="about.html">Acerca de</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="equipo.html">Equipo y personal</a></li>
+
+    </ul>
+  </nav>
+
+  <section style="text-align: center;">
+    <h2 style="text-align: center;">Servicios</h2>
+    <p>En Odapas Tecámac, nos enorgullece brindar una amplia gama de servicios de agua potable, alcantarillado y saneamiento para satisfacer las necesidades de la comunidad de Tecámac. Nuestro compromiso es garantizar el suministro confiable de agua de calidad y la gestión eficiente de los sistemas de alcantarillado y saneamiento en toda la región.</p>
+    <img src="images/odapass3.jpg" alt="Logo Odapas Tecámac">
+  </section>
+
+  <section style="text-align: center;">
+    <h2 style="text-align: center;">Gestión del Agua en Tecámac</h2>
+    <p>En Tecámac, la gestión del agua es un aspecto fundamental para garantizar el suministro de agua potable a la comunidad. Se llevan a cabo diversas acciones para asegurar la disponibilidad y calidad del agua, así como su distribución equitativa. Además, se implementan medidas de conservación y uso eficiente del recurso hídrico.</p>
+    <img src="images/odapass6.jpg" alt="Logo Odapas Tecámac">
+  </section>
+
+  <section style="text-align: center;">
+    <h2 style="text-align: center;">Infraestructura de Saneamiento en Tecámac</h2>
+    <p>La infraestructura de saneamiento en Tecámac es una parte crucial del sistema de alcantarillado y tratamiento de aguas residuales. Se han construido plantas de tratamiento de vanguardia que permiten tratar las aguas residuales de manera eficiente y cumplir con los estándares de calidad ambiental. Asimismo, se realizan labores de mantenimiento y monitoreo constante para asegurar el correcto funcionamiento de la infraestructura.</p>
+    <img src="images/odapass7.jpg" alt="Logo Odapas Tecámac">
+  </section>
+
+  <!-- Galería de imágenes -->
+<h2 style="text-align: center; font-size: 28px; color: #00008B;">Galería de Imágenes "Odapas Tecámac"</h2>
+<div class="image-gallery">
+  <div class="image-item">
+    <img src="images/a7a23090-eac1-47f1-ad34-85a54813.jpg" alt="Imagen 1">
+    <div class="overlay"></div>
+  </div>
+  <div class="image-item">
+    <img src="images/wp-1474566456734.webp" alt="Imagen 2">
+    <div class="overlay"></div>
+  </div>
+  <div class="image-item">
+    <img src="images/wip-mexico-isle.jpg" alt="Imagen 3">
+    <div class="overlay"></div>
+  </div>
+  <div class="image-item">
+    <img src="images/agua y saneamiento.jpg" alt="Imagen 4">
+    <div class="overlay"></div>
+  </div>
+  <div class="image-item">
+    <img src="images/conagua (1).jpg" alt="Imagen 5">
+    <div class="overlay"></div>
+  </div>
+  <div class="image-item">
+    <img src="images/obras-red-de-agua-potable-denia-.jpg" alt="Imagen 6">
+    <div class="overlay"></div>
+  </div>
+</div>
